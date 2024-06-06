@@ -1,0 +1,49 @@
+.sliding-cards {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .card {
+    flex: 1;
+    min-width: 100%;
+    max-width: 100%;
+    height: 300px; /* Adjust height as needed */
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+    position: relative;
+  }
+  
+  .card.active {
+    opacity: 1;
+  }
+  
+  .card:not(.active) {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Arial, sans-serif; /* Change font style here */
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+  }
+  
+  .content p {
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      height: 200px; /* Adjust height for smaller screens */
+    }
+  }
+  

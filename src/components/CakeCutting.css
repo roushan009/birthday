@@ -1,0 +1,32 @@
+/* src/components/CakeCutting.css */
+.cake-section {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .cake {
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  .cut-button {
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .cut-button:hover {
+    background-color: #ff1493;
+  }
+  
+  .message {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ff69b4;
+  }
+  

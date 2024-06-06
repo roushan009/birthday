@@ -1,0 +1,95 @@
+/* src/components/AnniversaryCard.css */
+.card {
+    background: #ffcccb;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  .heart {
+    width: 50px;
+    margin-top: 10px;
+  }
+  
+
+  /* src/components/LoveMessage.css */
+/* .love-message {
+    text-align: center;
+    background-color: #ffcccb;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  .love-message h1 {
+    font-size: 36px;
+    color: #ff1493;
+    margin-bottom: 20px;
+  }
+  
+  .love-message p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+   */
+
+
+   .sliding-cards {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .card.active {
+    opacity: 1;
+  }
+
+  .lenin {
+    color: blue;
+  }
+  
+  .card:not(.active) {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .content {
+    position: absolute;
+    /* bottom: 20px; */
+    top:20em;
+    left: 20px;
+    padding: 1em;
+    color: rgb(32, 138, 136);
+    font-family: Arial, sans-serif; /* Change font style here */
+    width: calc(100% - 40px);
+  }
+  
+  .content p {
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      height: 200px; /* Adjust height for smaller screens */
+    }
+  }
+  
+
+
+  button {
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #ff1493;
+  }
