@@ -13,14 +13,14 @@ import styled from 'styled-components';
 
 const Text = styled.h1`
   font-size: 3rem;
-  color: red;
+  color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 `;
 
 const Background = () => {
   return (
     // <BackgroundContainer>
-      <Text>Dear my Love 😍 Mam</Text>
+      <Text>Many Many Returns Of the Day My Love!!</Text>
     // </BackgroundContainer>
   );
 };
