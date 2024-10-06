@@ -91,7 +91,7 @@ const AnniversaryCard = () => {
         Cut the Cake!
       </button> */}
       <motion.div
-        className={`s ${allSlidesShown ? 'exit' : ''}`}
+        className={`card ${allSlidesShown ? 'exit' : ''}`}
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
