@@ -96,9 +96,9 @@ const AnniversaryCard = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <h1>Happy First Month Anniversary! </h1>
+        <h1>Happy Birthday To You Babe! </h1>
         <br />
-        <h1>My Love </h1>
+        <h1>My Love</h1>
         <div> {currentIndex === 13 ?
           <h1>{startSlideshow ? slidesContent[currentIndex] : ''}</h1>
           : currentIndex === 9 ? <h1>{startSlideshow ? slidesContent[currentIndex] : ''}</h1>
@@ -132,7 +132,7 @@ const AnniversaryCard = () => {
       {
         !startAudio ? <button onClick={playSong}> Play the song Surprise me</button> : ''
       }
-      <audio ref={audioRef} src="/surprisMe.mp3" /> 
+      <audio ref={audioRef} src="/Happy-Birthday.mp3" /> 
     </div>
   );
 };
