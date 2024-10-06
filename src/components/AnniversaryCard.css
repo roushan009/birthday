@@ -1,6 +1,10 @@
 /* src/components/AnniversaryCard.css */
 .card {
-    background: #ffcccb;
+  background-image: url('./heart.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 500px 400px; /* Set width and height to 100px */
+
     padding: 20px;
     border-radius: 15px;
     text-align: center;
