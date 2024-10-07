@@ -109,7 +109,7 @@ const AnniversaryCard = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <h1 style={{ paddingBottom: '1em' }}>Happy Birthday To Sayoni!! </h1>
+        <h1 style={{ paddingBottom: '1em' }}>Happy Birthday To SAYONI!! </h1>
         <br />
         <br />
         <br />
