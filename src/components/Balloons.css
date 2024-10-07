@@ -1,0 +1,46 @@
+/* Container to hold the balloon */
+.container {
+    /* position: relative; */
+    width: 100vw;
+    /* height: 100vh; */
+    top: 20em;
+    overflow: hidden;
+    background-color: #87CEEB; /* Optional: Sky-like background */
+  }
+  
+  /* The balloon element */
+  .balloon {
+    position: absolute;
+    bottom: 30em;
+    left: 50%;
+    width: 60px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50% 50% 50% 50%; /* Rounded to make it look like a balloon */
+    box-shadow: inset -15px -10px 10px rgba(0, 0, 0, 0.3); /* Optional shadow */
+    transform: translateX(-50%);
+    animation: flyBalloon 6s infinite ease-in-out;
+  }
+  
+  /* Balloon string (optional) */
+  .balloon::after {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    width: 2px;
+    /* height: 40px; */
+    background-color: black;
+    transform: translateX(-50%);
+  }
+  
+  /* Animation to make the balloon fly from bottom to top */
+  @keyframes flyBalloon {
+    0% {
+      bottom: 0;
+    }
+    100% {
+      bottom: 100vh;
+    }
+  }
+  
